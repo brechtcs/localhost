@@ -1,25 +1,9 @@
 {
-  "name": "host-discovery",
-  "version": "1.0.5",
-  "description": "A simple discovery service which sends and receives messages to/from a multicast address in JSON format.",
-  "main": "host-discovery.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-  "type": "git",
-  "url": "git+https://github.com/j8la/host-discovery.git"
-  },
-  "keywords": [
-    "service",
-    "discovery",
-    "host",
-    "multicast",
-    "udp"
-  ],
-  "author": "Julien Blanc",
-  "license": "MIT",
+  "name": "nginx-discovery",
+  "version": "0.1.0",
+  "description": "A simple discovery service which sends and receives nginx sites.",
   "dependencies": {
     "event-timer": "^1.1.2"
-  }
+  },
+  "license": "MIT"
 }
