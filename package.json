@@ -2,8 +2,12 @@
   "name": "nginx-discovery",
   "version": "0.1.0",
   "description": "A simple discovery service which sends and receives nginx sites.",
+  "scripts": {
+    "test": "node test/nginx.js"
+  },
   "dependencies": {
     "event-timer": "^1.1.2",
+    "glob": "^7.1.1",
     "nginx-config-parser": "^0.1.1"
   },
   "license": "MIT"
