@@ -1,7 +1,7 @@
 {
-  "name": "nginx-discovery",
+  "name": "pamphlets",
   "version": "0.1.0",
-  "description": "A simple discovery service which sends and receives nginx sites.",
+  "description": "A simple discovery service for local network sites.",
   "scripts": {
     "test": "node test/nginx.js"
   },
