@@ -12,6 +12,7 @@
     "event-timer": "^1.1.2",
     "glob": "^7.1.1",
     "http-proxy": "^1.16.2",
+    "minimist": "^1.2.0",
     "nginx-config-parser": "^0.1.1"
   },
   "license": "MIT"
