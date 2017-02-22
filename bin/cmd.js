@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
+const localhost = require('../lib/localhost')
 const minimist = require('minimist')
-const pamphlets = require('../lib/pamphlets')
 
 const argv = minimist(process.argv)
 const opts = {}
@@ -25,4 +25,4 @@ if (argv.nginx || argv.n) {
   }, [])
 }
 
-pamphlets.start(opts)
+localhost.start(opts)

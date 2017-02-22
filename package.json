@@ -1,9 +1,9 @@
 {
-  "name": "pamphlets",
+  "name": "localhost-core",
   "version": "0.1.0",
   "description": "A simple discovery service for local network sites.",
   "bin": {
-    "pamphlets": "bin/cmd.js"
+    "localhost": "bin/cmd.js"
   },
   "scripts": {
     "test": "node test/nginx.js"
