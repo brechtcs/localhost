@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const localhost = require('../lib/localhost')
+const host = require('../lib')
 const minimist = require('minimist')
 
 const argv = minimist(process.argv)
@@ -25,4 +25,4 @@ if (argv.nginx || argv.n) {
   }, [])
 }
 
-localhost.start(opts)
+host.start(opts)
