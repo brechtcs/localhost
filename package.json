@@ -1,6 +1,6 @@
 {
   "name": "localhost-core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple discovery service for local network sites.",
   "bin": {
     "localhost": "bin/cmd.js"
